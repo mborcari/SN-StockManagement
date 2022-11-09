@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Stock history" max_length="40" name="x_740318_stock_man_stock_history" type="collection">
+        <element label="Close value" max_length="15" name="close_value" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Day" max_length="40" name="day" type="glide_date"/>
+        <element label="High value" max_length="15" name="high_value" type="decimal"/>
+        <element label="Low value" max_length="15" name="low_value" type="decimal"/>
+        <element label="Open value" max_length="15" name="open_value" type="decimal"/>
+        <element attributes="encode_utf8=false" label="Stock" max_length="32" name="stock" reference="x_740318_stock_man_stock" type="reference"/>
+        <element label="Volume" max_length="40" name="volume" type="integer"/>
+        <index name="index">
+            <element name="stock"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Stock portifolio" max_length="40" name="x_740318_stock_man_stock_portifolio" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="100" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="100" name="name" type="string"/>
+        <element attributes="encode_utf8=false" label="Own" max_length="32" name="own" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="own"/>
+        </index>
+    </element>
+</database>
