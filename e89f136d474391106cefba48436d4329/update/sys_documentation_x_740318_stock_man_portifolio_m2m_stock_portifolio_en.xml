@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="portifolio" label="Portifolio" language="en" table="x_740318_stock_man_portifolio_m2m_stock">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>portifolio</element>
+            <help/>
+            <hint/>
+            <label>Portifolio</label>
+            <language>en</language>
+            <name>x_740318_stock_man_portifolio_m2m_stock</name>
+            <plural>Portifolios</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-09 03:21:35</sys_created_on>
+            <sys_id>12222fed474391106cefba48436d43f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Portifolio</sys_name>
+            <sys_package display_value="Stock Management" source="x_740318_stock_man">e89f136d474391106cefba48436d4329</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Stock Management">e89f136d474391106cefba48436d4329</sys_scope>
+            <sys_update_name>sys_documentation_x_740318_stock_man_portifolio_m2m_stock_portifolio_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-09 03:21:35</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

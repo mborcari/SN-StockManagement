@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Portifolio_m2m_stock" max_length="40" name="x_740318_stock_man_portifolio_m2m_stock" type="collection">
+        <element attributes="encode_utf8=false" label="Portifolio" max_length="32" name="portifolio" reference="x_740318_stock_man_stock_portifolio" type="reference"/>
+        <element label="Purchase amount" max_length="40" name="purchase_amount" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Purchase date" max_length="40" name="purchase_date" type="glide_date_time"/>
+        <element label="Purchase value" max_length="15" name="purchase_value" type="decimal"/>
+        <element attributes="encode_utf8=false" label="Stock" max_length="32" name="stock" reference="x_740318_stock_man_stock" type="reference"/>
+        <index name="index">
+            <element name="portifolio"/>
+        </index>
+        <index name="index2">
+            <element name="stock"/>
+        </index>
+    </element>
+</database>

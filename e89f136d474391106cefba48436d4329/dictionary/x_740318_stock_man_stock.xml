@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Stock" max_length="40" name="x_740318_stock_man_stock" type="collection">
+        <element label="Change 180 last day" max_length="15" name="change_180_last_day" type="decimal"/>
+        <element label="Change 30 last day" max_length="15" name="change_30_last_day" type="decimal"/>
+        <element label="Change 360 last day" max_length="15" name="change_360_last_day" type="decimal"/>
+        <element label="Change 7 last day" max_length="15" name="change_7_last_day" type="decimal"/>
+        <element label="Change 90 last day" max_length="15" name="change_90_last_day" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Code" max_length="40" name="code" type="string"/>
+        <element label="Current value" max_length="15" name="current_value" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
+    </element>
+</database>

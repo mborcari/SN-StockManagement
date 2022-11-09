@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="change_30_last_day" label="Change 30 last day" language="en" table="x_740318_stock_man_stock">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>change_30_last_day</element>
+            <help/>
+            <hint/>
+            <label>Change 30 last day</label>
+            <language>en</language>
+            <name>x_740318_stock_man_stock</name>
+            <plural>Change 30 last days</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-09 03:14:18</sys_created_on>
+            <sys_id>af70ef6d474391106cefba48436d4390</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Change 30 last day</sys_name>
+            <sys_package display_value="Stock Management" source="x_740318_stock_man">e89f136d474391106cefba48436d4329</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Stock Management">e89f136d474391106cefba48436d4329</sys_scope>
+            <sys_update_name>sys_documentation_x_740318_stock_man_stock_change_30_last_day_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-09 03:14:18</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
